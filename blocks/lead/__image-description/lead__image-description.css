@@ -1,0 +1,9 @@
+.lead__image-description {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  align-self: flex-start;
+}
