@@ -4,6 +4,18 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 8px;
+  margin: 0;
   align-self: flex-start;
+}
+
+@media (max-width: 1022px) {
+  .lead__image-description {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image-description {
+    margin-left: 16px;
+  }
 }
