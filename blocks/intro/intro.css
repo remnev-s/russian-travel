@@ -1,4 +1,9 @@
 .intro {
   max-width: 984px;
-  outline: 1px solid blue;
+}
+
+@media (max-width: 1022px) {
+  .intro {
+    padding: 0 24px;
+  }
 }
