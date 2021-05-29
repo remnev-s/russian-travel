@@ -1,3 +1,9 @@
 .content__intro {
-  margin: 92px auto;
+  margin: 92px auto 0;
+}
+
+@media (max-width: 320px) {
+  .content__intro {
+    margin: 64px auto 0;
+  }
 }
