@@ -3,8 +3,6 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   padding: 0 48px;
-
-  outline: 1px solid red;
 }
 
 @media (max-width: 768px) {
