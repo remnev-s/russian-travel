@@ -1,0 +1,14 @@
+.footer__link {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__link:not(:last-child) {
+  margin-right: 18px;
+}
+
+@media (max-width: 320px) {
+  .footer__link:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
