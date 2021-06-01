@@ -3,4 +3,15 @@
   line-height: 163%;
   font-weight: 400;
   color: #fff;
+  margin: 0 0 25px;
+}
+
+.place__paragraph-inner:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph-inner {
+    font-size: 16px;
+  }
 }

@@ -1,2 +1,40 @@
 .place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 48px 40px;
+
+  /* outline: 1px solid red; */
+  /* padding: 0 148px; */
+}
+
+.place:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    grid-gap: 48px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    grid-gap: 48px 28px;
+  }
+  .place:not(:last-child) {
+    margin-bottom: 73px;
+  }
+}
+
+@media (max-width: 631px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place:not(:last-child) {
+    margin-bottom: 50px;
+  }
 }
