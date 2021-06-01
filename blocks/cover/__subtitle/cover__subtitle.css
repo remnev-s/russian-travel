@@ -7,6 +7,13 @@
   text-decoration: none;
   margin: 0;
 
-  outline: 1px solid red;
   z-index: 1;
+}
+
+@media (max-width: 368px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 268px;
+  }
 }

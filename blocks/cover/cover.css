@@ -1,8 +1,5 @@
 .cover {
   outline: 1px solid yellowgreen;
-  /* background-image: url(../../images/cover-trains.jpg); */
-  /* background-size: cover; */
-  /* min-height: 740px; */
-  /* position: relative; */
-  margin-bottom: 50px;
+  max-width: 1184px;
+  /* padding: 0 48px; */
 }

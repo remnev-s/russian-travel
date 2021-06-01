@@ -1,8 +1,6 @@
 .places {
   outline: 1px solid orange;
   max-width: 984px;
-
-  margin-bottom: 50px;
 }
 
 @media (max-width: 1024px) {

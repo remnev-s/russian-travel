@@ -5,8 +5,23 @@
   font-weight: 900;
   max-width: 560px;
   text-decoration: none;
-  margin: 0;
-
-  outline: 1px solid black;
+  margin: 0 0 32px;
   z-index: 1;
+}
+
+@media (max-width: 510px) {
+  .cover__title {
+    font-size: 52px;
+    line-height: 55px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 368px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 250px;
+    margin: 0 0 16px;
+  }
 }
