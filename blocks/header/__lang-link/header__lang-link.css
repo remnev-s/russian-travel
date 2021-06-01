@@ -5,6 +5,11 @@
   font-size: 28px;
   line-height: 28px;
   font-weight: 400;
+  transition: opacity 0.3s linear;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {
