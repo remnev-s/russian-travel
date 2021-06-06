@@ -1,6 +1,7 @@
 .place__url {
   font-size: 12px;
-  line-height: 16px;
+  line-height: 12px;
+  letter-spacing: 2.4px;
   font-weight: 400;
   color: #aaa;
   text-transform: uppercase;

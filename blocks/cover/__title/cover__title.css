@@ -9,10 +9,17 @@
   z-index: 1;
 }
 
-@media (max-width: 510px) {
+@media (max-width: 736px) {
   .cover__title {
-    font-size: 52px;
-    line-height: 55px;
+    font-size: 60px;
+    line-height: 63px;
+    max-width: 400px;
+  }
+}
+@media (max-width: 470px) {
+  .cover__title {
+    font-size: 42px;
+    line-height: 45px;
     max-width: 400px;
   }
 }
