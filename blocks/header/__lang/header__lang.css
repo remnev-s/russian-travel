@@ -2,3 +2,7 @@
   list-style: none;
   display: flex;
 }
+
+.header__lang:first-child {
+  margin-right: 18px;
+}
