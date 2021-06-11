@@ -23,7 +23,7 @@
   height: 100%;
   background-color: #2a2c2f;
   transition: 0.5s linear;
-  opacity: 0.8;
+  opacity: 0.3;
 }
 
 .cover__overlay:hover::before {
